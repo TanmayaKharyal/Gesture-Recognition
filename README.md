@@ -27,16 +27,16 @@ The dataset can be downloaded from the following link:
 https://drive.google.com/uc?id=1ehyrYBQ5rbQQe6yL4XbLWe3FMvuVUGiL
 
 ## Approach for the Project:
-A generator has been created to handle the image index and batch data. 
-3D Convulation architecture is used to solve the problem statement. 
-7 models are created in total.I have also uploaded the h5 file of the best model. 
-Before starting the actual models, I have created a sample model and played around parameters like batch size, Image resolution and Frame sequence in order to analyse how the respective parameters effect training time and validation accuracy. 
-Later, a base model is created and after analysis of every model, next steps are taken. 
-Descriptions are given in the code and I have also uploaded the write up of the models. 
+- A generator has been created to handle the image index and batch data. 
+- 3D Convulation architecture is used to solve the problem statement. 
+- 7 models are created in total.I have also uploaded the h5 file of the best model. 
+- Before starting the actual models, I have created a sample model and played around parameters like batch size, Image resolution and Frame sequence in order to analyse how the - respective parameters effect training time and validation accuracy. 
+- Later, a base model is created and after analysis of every model, next steps are taken. 
+- Descriptions are given in the code and I have also uploaded the write up of the models. 
 
 ## Results:
-Model 4 has worked the best in this case with highest validation accuracy of 86%. 
-For selecting the best model, one must have a balnace between validation accuracy and total trainable parameters. 
+- Model 4 has worked the best in this case with highest validation accuracy of 86%. 
+- For selecting the best model, one must have a balnace between validation accuracy and total trainable parameters. 
 
 ## Next Steps:
 Further, one can use the transfer learning (CNN+RNN) and see if it works better than the Conv 3D Architecture. 
