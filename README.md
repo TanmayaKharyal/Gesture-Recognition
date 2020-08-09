@@ -21,7 +21,7 @@ The data is in a zip file. The zip file contains a 'train' and a 'val' folder wi
 
 Each row of the CSV file represents one video and contains three main pieces of information - the name of the subfolder containing the 30 images of the video, the name of the gesture and the numeric label (between 0-4) of the video.
 
-Our task is to train a model on the 'train' folder which performs well on the 'val' folder as well (as usually done in ML projects). We have withheld the test folder for evaluation purposes - your final model's performance will be tested on the 'test' set.
+Our task is to train a model on the 'train' folder which performs well on the 'val' folder as well (as usually done in ML projects).
 
 The dataset can be downloaded from the following link:
 https://drive.google.com/uc?id=1ehyrYBQ5rbQQe6yL4XbLWe3FMvuVUGiL
